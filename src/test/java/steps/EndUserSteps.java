@@ -1,8 +1,8 @@
-package Bithumen-test.steps.serenity;
+package steps;
 
-import Bithumen-test.pages.DictionaryPage;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
+import pages.DictionaryPage;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.containsString;

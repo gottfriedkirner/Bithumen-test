@@ -1,4 +1,4 @@
-package Bithumen-test.pages;
+package pages;
 
 import ch.lambdaj.function.convert.Converter;
 import net.serenitybdd.core.annotations.findby.FindBy;

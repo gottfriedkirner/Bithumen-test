@@ -1,16 +1,15 @@
-package Bithumen-test.features.search;
+package tests;
 
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Issue;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Pending;
 import net.thucydides.core.annotations.Steps;
+import steps.EndUserSteps;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
-
-import Bithumen-test.steps.serenity.EndUserSteps;
 
 @RunWith(SerenityRunner.class)
 public class SearchByKeywordStory {
